@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encript</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+    <body class="contenedor">
+        <header>
+            <nav class="navegacion">
+    
+                <img src="img/alura.png" alt="Logo-alura" class="logoA">
+    
+                <ul class="menu">
+                    <li>
+                        <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
+                        <i class="fa-brands fa-html5"></i></a>
+                    </li>
+    
+                    <li>
+                        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
+                        <i class="fa-brands fa-css3-alt"></i></a>
+                    </li>
+    
+                    <li>
+                        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">
+                        <i class="fa-brands fa-js-square"></i></a>
+                    </li>
+                </ul>
+    
+            </nav>
+        </header>
+
+        <hr>
+
+        <main class="encabezado">
+
+            <h2 class="intro">Encriptador de texto</h2>
+                
+            <form>
+                    
+                <div class="texto">
+                        
+                    <textarea name="mensaje1" id="mensaje-principal"></textarea>
+                                    
+                </div>
+                
+                <p id="parrafo-informacion"></p>
+
+                        
+                <div class="contenedor-boton">
+                                        
+                    <button class="boton" id="codificar"><span>Codificar</span></button>
+                    <button class="boton" id="descodificar"><span>Descodificar</span></button>
+
+                </div>
+
+                <div class="texto">
+                                        
+                <textarea name="mensaje2" id="mensaje-secundario" readonly></textarea> 
+                                            
+                </div>
+                
+                <div class="contenedor-portapapeles">
+                                        
+                    <span class="portapapeles" id="mensaje-portapapeles">Copiar texto</span>
+                    <button class="boton" id="copiar"><span>Copiar</span></button>
+
+                </div>
+                                    
+            </form>     
+
+        </main>
+
+        <section class="social">
+
+            <div class="links">
+
+                <a href="https://github.com/andres676/andres676" target="_blank">
+                <i class="fa-brands fa-github"></i></a>
+
+                <a href="https://linkedin.com/in/bryan-ramos-689929207" target="_blank">
+                <i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+
+            <p>Portafolio digital</p>
+
+        </section>
+    </body>
+    <script src="js/funciones.js"></script>
+    <script src="js/mensaje.js"></script>
+</html>
